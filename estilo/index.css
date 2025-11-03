@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #333;
+}
+
+header {
+  background: #ffffff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.logo {
+  font-size: 24px;
+  color: orange;
+  font-weight: 700;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  display: inline;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+}
+
+.btn {
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn.doar {
+  background-color: orange;
+  color: #fff;
+}
+
+.Texto {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.imagem {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.slogan {
+  margin-top: 20px;
+  color: orange;
+  font-size: 20px;
+}
+
+.descricao {
+  margin: 10px 0 30px;
+}
+
+.categorias {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.categorias button {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.impacto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.impacto img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.texto__complemento {
+  font-weight: 500;
+  margin-top: -58px;
+}
+
+.chamada {
+  background: #f2f2f2;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.chamada p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.depoimento {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  text-align: center;
+  flex-wrap: wrap;
+  background-color: #fff;
+}
+
+.depoimento .seta {
+  font-size: 24px;
+  cursor: pointer;
+  margin: 0 10px;
+  background: none;
+  border: none;
+  color: orange;
+}
+
+.depoimento .conteudo {
+  display: none;
+  max-width: 600px;
+  margin: 20px;
+}
+
+.depoimento .conteudo.ativo {
+  display: block;
+}
+
+.depoimento img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+footer {
+  background-color: orange;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 20px;
+  font-size: 14px;
+}
+
+footer .info, footer .direito, footer .social {
+  flex: 1;
+  margin: 10px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.social a {
+  color: white;
+  font-size: 20px;
+}
+
+
+.impacto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.impacto img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+
+.chamada {
+  background: #f2f2f2;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.chamada p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.depoimento {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  text-align: center;
+  flex-wrap: wrap;
+  background-color: #fff;
+}
+
+.depoimento .seta {
+  font-size: 24px;
+  cursor: pointer;
+  margin: 0 10px;
+  background: none;
+  border: none;
+  color: orange;
+}
+
+.depoimento .conteudo {
+  display: none;
+  max-width: 600px;
+  margin: 20px;
+}
+
+.depoimento .conteudo.ativo {
+  display: block;
+}
+
+.depoimento img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+footer {
+  background-color: orange;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px 20px;
+  font-size: 14px;
+}
+
+footer .info, footer .direito, footer .social {
+  flex: 1;
+  margin: 10px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.social a {
+  color: white;
+  font-size: 20px;
+}

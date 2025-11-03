@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+/* Container da imagem principal */
+.imagem-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.imagem-capa {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.menu li {
+  display: inline;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+}
+.causa{
+  text-align: center;
+  padding: 25px;
+}
+
+/* Contatos (Central, Atendente, Instagram) */
+.contatos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 25px;
+  padding: 40px 20px; /* reduzido de 150px para não quebrar layout */
+}
+
+/* Estilo dos títulos de cada contato */
+.central,
+.atendente,
+.instagram {
+  color: #f39800;
+  font-weight: bold;
+}
+
+/* Blocos de contato individual */
+.contato-item {
+  display: flex;
+  align-items: center;
+  background-color: #fafafa;
+  border-radius: 10px;
+  padding: 15px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* corrigido o erro de sintaxe */
+  min-width: 260px;
+  max-width: 320px;
+  flex-direction: row;
+  gap: 15px;
+  transition: transform 0.2s ease;
+}
+
+.contato-item:hover {
+  transform: scale(1.03);
+}
+
+/* Ícones dentro dos contatos */
+.icone {
+  font-size: 28px;
+  color: #f39800;
+}
+
+/* Rodapé */
+footer {
+  background-color: orange;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px 20px;
+  font-size: 14px;
+  gap: 20px;
+}
+
+footer .info, footer .direito, footer .social {
+  flex: 1;
+  margin: 10px;
+}
+
+
+.icon_insta{
+width: 24px;
+
+
+}
+ .social {
+  width: 24px;
+  margin: 0 5px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+}
+
+
+.social a{
+color: white;
+} 
