@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f8f8f8;
+}
+
+header {
+  background: #ffffff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  color: orange;
+}
+
+nav a {
+  margin-left: 1em;
+  text-decoration: none;
+  color: #333;
+}
+
+main {
+  padding: 2em;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: auto;
+  background: #fff;
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.donation-form input,
+.donation-form select {
+  display: block;
+  width: 100%;
+  margin: 0.5em 0;
+  padding: 0.8em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.tabs {
+  margin: 1em 0;
+}
+
+.tab {
+  padding: 0.5em 1em;
+  border: none;
+  background: #eee;
+  margin-right: 0.5em;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.tab.active {
+  background: orange;
+  color: white;
+}
+
+.payment-methods {
+  margin-top: 2em;
+}
+
+.payment {
+  display: none;
+  flex-direction: column;
+}
+
+.payment.active {
+  display: flex;
+  flex-direction: column;
+}
+
+.payment input,
+.payment select {
+  margin-bottom: 1em;
+  padding: 0.8em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 0.8em;
+  background: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

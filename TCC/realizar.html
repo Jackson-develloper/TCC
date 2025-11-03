@@ -1,0 +1,52 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="./Páginahome/_SalveVidas-removebg-preview.png" type="image/png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./estilo/index.css" />
+  <link rel="stylesheet" href="./estilo/realizar.css" />
+  <title>Doação</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Doe+</div>
+      <ul class="menu">
+        <li><a href="./SobreNos.html">Sobre Nós</a></li>
+        <li><a href="./portal.html">Portal de Apoio</a></li>
+        <li><a href="./doacao.html" class="btn doar">Quero Ajudar</a></li>
+        <li><a href="./index.html" class="btn entrar">Home</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    
+    <section class="form-container">
+      <h3>Doar via PIX</h3>
+      
+      <form class="donation-form" action="/cgi-bin/doar.py" method="post">
+        <input id="nomeDoacao" name="nome" type="text" placeholder="Nome Completo" required>
+        <input id="emailDoacao" name="email" type="email" placeholder="E-mail" required>
+        <input id="telefone" name="telefone" type="tel" placeholder="(00)00000-0000" maxlength="15">
+        <input id="cpf" name="cpf" type="text" placeholder="CPF" maxlength="14">
+        <input name="valor" type="number" placeholder="Valor da doação" required>
+        <select>
+          <option>Selecione o banco</option>
+          <option>Itaú</option>
+          <option>Bradesco</option>
+        </select>
+        <button type="submit">Doar Agora</button>
+      </form>
+    </section>
+  </main>
+</body>
+<script src="./script.js"></script>
+</html>
